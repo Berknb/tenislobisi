@@ -1,0 +1,95 @@
+ .karsilasma{
+    margin: 1rem;
+}
+.hidden {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+.karsilasma input[type=radio]+label {
+margin: 0.6rem;
+background-color:#009144;
+border-radius:28px;
+border:1px solid #009144;
+display:inline-block;
+cursor:pointer;
+padding:16px 31px;
+text-decoration:none;
+text-shadow:0px 1px 0px #2f6627;
+color: white;
+}
+  
+.karsilasma input[type=radio]:checked+label{
+font-weight: bold;
+background-color: #1A3162;
+}
+
+.karsilasma input[type=radio]+label:hover{
+    background-color: #1A3162;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+.derecePage{
+  display: flex;
+}
+.derece {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 50%;
+}
+.derece input[type=radio]+label{
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  border-radius:28px;
+  display:flex;
+  cursor:pointer;
+  padding: 5px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+  color: white;
+  }
+  .derece input[type=radio]:checked+label{
+  font-weight: bold;
+  border: 1px solid;
+  padding: 30px;
+  box-shadow: 25px 6px 25px black;
+  }
+  
+  .derece input[type=radio]+label:hover{
+      padding: 30px;  
+  }
+  .description{
+    width: 50%;
+    background-color: #efeff5;  
+  }

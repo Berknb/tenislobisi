@@ -1,0 +1,25 @@
+.select p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.select label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .submit{
+    margin-top: 1rem;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+  }
+  .submit button{
+    font: inherit;
+    cursor: pointer;
+    background-color: #77002e;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #77002e;
+    border-radius: 4px;
+    font-weight: bold;
+  }

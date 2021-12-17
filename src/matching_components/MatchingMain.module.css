@@ -1,0 +1,21 @@
+.main{
+    float: right;
+    width: 55%;
+    min-height: 40rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.options{
+    float: left;
+    width: 45%;
+    min-height: 40rem;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:700px) {
+    .main{
+        width: 100%;  
+    }
+    .options{
+        width: 100%;
+    }
+}

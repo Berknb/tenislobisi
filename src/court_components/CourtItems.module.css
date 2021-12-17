@@ -1,0 +1,55 @@
+
+.left{
+      display: flex;
+      float: left;
+      width: 50%;
+      height: 40rem;
+      background-image: url(../images/tenis2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+      background-position: center center;
+      background-color: #464646;
+      font-family: 'Oswald', sans-serif;
+      margin-bottom: 1rem;
+}
+.right{
+    display: flex;
+    float: right;
+    width: 50%;
+    height: 40rem;
+    background-image: url(../images/indoor.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+      background-position: center center;
+      background-color: #464646;
+      font-family: 'Oswald', sans-serif;
+      margin-bottom: 1rem;
+}
+@media screen and (max-width:700px) {
+      .left{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50%;
+    top: 0;
+    width: 100%;
+           
+      }
+      .right{
+            position: fixed;
+            left: 0;
+            right: 0;
+            height: 50%; 
+            bottom: 0;
+            width: 100%;
+            margin-bottom: 0;
+      }    
+      
+}
+

@@ -1,0 +1,31 @@
+.card {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+    width: 30rem;
+    margin: 2rem;
+  }
+  
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  
+  .card label{
+    font-weight:bold;
+    font-size: 1.5rem;
+    border-bottom: rosybrown solid 1px;
+
+  }
+  .card p{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  

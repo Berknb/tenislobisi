@@ -1,0 +1,30 @@
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    border-radius: 0px;
+    border-width: 0px;
+    color: black;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    min-height: 2.3rem;
+}
+.buttons li:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+.buttons input{
+    cursor: pointer;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .buttons input+label{
+    cursor: pointer;
+  }
+  .buttons input[type=radio]:checked+label{
+    font-weight: 700;
+    border-bottom: #a50e48 solid;
+  }
+  
