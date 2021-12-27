@@ -99,7 +99,7 @@ alert("Lütfen ücret tipini belirtin!")
 <CityList/>
   
   <p htmlFor='textarea'>Detaylı bilgi: </p>
-  <textarea placeholder='sokak, mahalle, no: ... (ücretli ise ücretlendirme bilgisi)' rows='5' ref={adressinputref}></textarea>
+  <textarea placeholder='sokak, mahalle, no: ... (ücretli ise ücretlendirme bilgisi)' rows='5' maxLength="100" ref={adressinputref}></textarea>
 
   
   <div id="kort_tipi">
